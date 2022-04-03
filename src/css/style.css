@@ -1,0 +1,152 @@
+*{
+    font-family: 'Montserrat Alternates';
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body {
+    background: #E5E5E5;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition:0.6s;
+    padding:40px 100px;
+    z-index: 10000;
+}
+
+header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+}
+
+header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size:2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition:0.6s;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition:0.6s;
+}
+
+.promo{
+    position: relative;
+    background-color: #060709;
+    height: 100vh;
+    background-image: url("../img/bg1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    
+}
+
+header.sticky .logo,
+header.sticky ul li a{
+    color: #000;
+}
+
+.services {
+    padding: 36px 0 46px 0;
+    background-color: #B00F0A;
+}
+.services__wrapper {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.services__item {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 238px;
+}
+.services__title {
+    margin-top: 38px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.services__descr {
+    margin-top: 26px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h2.title {
+    font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+color: #060709;
+text-align: center;
+}
+.label {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+    padding-top: 80px;
+  }
+
+ .about__wrapper { 
+    display:table;
+    padding:5px; 
+    width:100%;
+    margin:5px 0; /* you can change/remove margin */
+}
+.about__descr{ 
+    vertical-align:middle;
+    display:table-cell;
+    text-align:justify;
+}
+.about__photo{
+    vertical-align:middle;
+    display:table-cell;
+    padding-right:5px;
+    width:50%; /* you can change width */
+}
+.about__photo img{ 
+    width:100%; /* you can change height */
+    vertical-align:middle;
+}
+  
